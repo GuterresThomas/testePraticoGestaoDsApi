@@ -61,30 +61,39 @@ npm run test:cov: Executa os testes e gera relatório de cobertura.
 # Listar todos os pacientes
 
 Método: GET
+
 Endpoint: /api/v1/pacientes
 
 # Buscar paciente por ID
 
 Método: GET
+
 Endpoint: /api/v1/pacientes/:id
+
 Descrição: Retorna os detalhes de um paciente específico com base no ID fornecido.
 
 # Criar um novo paciente
 
 Método: POST
+
 Endpoint: /api/v1/pacientes
+
 Descrição: Cria um novo paciente com base nos dados fornecidos.
 
 # Atualizar informações de um paciente
 
 Método: PUT
+
 Endpoint: /api/v1/pacientes/:id
+
 Descrição: Atualiza as informações de um paciente específico com base no ID fornecido.
 
 # Excluir um paciente
 
 Método: DELETE
+
 Endpoint: /api/v1/pacientes/:id
+
 Descrição: Remove um paciente específico com base no ID fornecido.
 
 # Dependências Principais
